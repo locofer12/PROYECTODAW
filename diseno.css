@@ -6,63 +6,30 @@
 body { /* backgroud color para todo el body asi queda uniforme  */
     background-color: #44eed1; /* Cambia #f0f0f0 por el color que desees */
 }
-/* Estilos personalizados para el menú */
-.navbar-brand {
-    font-weight: bold; /* Texto en negrita para la marca del navbar */
+
+/* Estilos para el menú */
+.menu {
+    background-color: #178aee; /* Color del menú */
+    padding: 10px;
 }
 
-.nav-link {
+.menu ul {
+    list-style-type: none; /* Elimina los estilos de la lista */
+    text-align: center; /* elementos de la lista al centro */
+}
+
+.menu ul li {
+    display: inline; 
+    margin-right: 20px; /* Espacio entre los elementos(a la derecha) */
+}
+
+.menu ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: #fff; /* Color del texto de los enlaces */
+    font-size: 18px; /* Tamaño del texto */
 }
 
-.nav-link:hover {
-    color: #ccc; /* Cambia el color del texto al pasar el mouse */
+.menu ul li a:hover {
+    color: #ffcc00; /* Color del texto al pasar el ratón */
 }
-/* DESDE ACA EL CSS DE EQUIPO.HTML  */
-.imagen {
-    width: 100%; /* Tamaño del 75% del ancho de la pantalla */
-    height: auto; /* Altura automática para mantener la proporción */
-    max-width: 100%; /* Evita que la imagen se estire más allá de su tamaño original */
-    display: block; /* Asegura que la imagen se muestre como un bloque */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-}
-
-/* Estilos para el h1 con clase "ache" */
-.ache {
-    text-align: center; /* Centra el texto */
-    margin-bottom: 20px; /* Espacio debajo del título */
-    background-color: #f0f0f0; /* Color de fondo */
-    padding: 10px; /* Espaciado interno */
-    border-radius: 10px; /* Bordes redondeados */
-    margin:auto;
-    text-align: center; /* queda centrado */
-}
-
-/* Estilos para los h2 con clase "ache2" */
-.ache2 {
-    font-size: 20px; /* Tamaño de fuente */
-    font-weight: bold; /* Negrita */
-    color: #333; /* Color del texto */
-    margin-bottom: 10px; /* Espacio debajo del título */
-    background-color: #f0f0f0; /* Color de fondo x2*/
-    padding: 10px; /* Espaciado interno */
-    border-radius: 10px; /* Bordes redondeados x2 */
-    margin:auto;
-    text-align: center;/* queda centrado x2*/
-
-}
-
-/* Estilos para los parrafos con clase "elpe" */
-.elpe {
-    color: #666; /* Color del texto */
-    line-height: 1.6; /* Altura de linea */
-    margin-bottom: 20px; /* Espacio debajo del parrafo */
-    background-color: #f0f0f0; /* Color de fondo */
-    padding: 10px; /* Espaciado interno */
-    border-radius: 10px; /* Bordes redondeados x3*/
-    margin:auto;
-    text-align: center;/* queda centrado x3*/
-}
-/* HASTA ACA EL CSS DE EQUIPO.HTML  */
-/* HASTA ACA EL CSS DE EQUIPO.HTML  */
-/* HASTA ACA EL CSS DE EQUIPO.HTML  */
+/* */
