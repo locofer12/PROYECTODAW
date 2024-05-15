@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { /* backgroud color para todo el body asi queda uniforme  */
+    background-color: #44eed1; /* Cambia #f0f0f0 por el color que desees */
+}
+/* Estilos personalizados para el menú */
+.navbar-brand {
+    font-weight: bold; /* Texto en negrita para la marca del navbar */
+}
+
+.nav-link {
+    color: #fff; /* Color del texto de los enlaces */
+}
+
+.nav-link:hover {
+    color: #ccc; /* Cambia el color del texto al pasar el mouse */
+}
+/* DESDE ACA EL CSS DE EQUIPO.HTML  */
+.imagen {
+    width: 100%; /* Tamaño del 75% del ancho de la pantalla */
+    height: auto; /* Altura automática para mantener la proporción */
+    max-width: 100%; /* Evita que la imagen se estire más allá de su tamaño original */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para el h1 con clase "ache" */
+.ache {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin:auto;
+    text-align: center; /* queda centrado */
+}
+
+/* Estilos para los h2 con clase "ache2" */
+.ache2 {
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    background-color: #f0f0f0; /* Color de fondo x2*/
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados x2 */
+    margin:auto;
+    text-align: center;/* queda centrado x2*/
+
+}
+
+/* Estilos para los parrafos con clase "elpe" */
+.elpe {
+    color: #666; /* Color del texto */
+    line-height: 1.6; /* Altura de linea */
+    margin-bottom: 20px; /* Espacio debajo del parrafo */
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados x3*/
+    margin:auto;
+    text-align: center;/* queda centrado x3*/
+}
+/* HASTA ACA EL CSS DE EQUIPO.HTML  */
+/* HASTA ACA EL CSS DE EQUIPO.HTML  */
+/* HASTA ACA EL CSS DE EQUIPO.HTML  */
